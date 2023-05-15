@@ -8,8 +8,8 @@ const projects = {
     ticker: "$Burns",
     telegram: "https://t.me/ape1333",
     contract: "0xE2aF516F83beb76E15cFFdCeC00f7115C850F69b",
-     media: 
-       "media/background.jpg",
+    //  media: 
+    //    "media/background.jpg",
     chatId: -1001911319414,
     buyLink:
       "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x6de72ee8fa95d36ab1dc9952f17e4359c01a9372b&use=v2&chain=mainnet"
@@ -19,8 +19,8 @@ const projects = {
     ticker: "$PEPE",
     telegram: "https://t.me/ape1333",
     contract: "0x6de72ee8fa95d36ab1dc9952f17e4359c01a9372",
-     media: 
-       "media/background.jpg",
+    //  media: 
+    //    "media/background.jpg",
     chatId: -1001911319414,
     buyLink:
       "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x6de72ee8fa95d36ab1dc9952f17e4359c01a9372b&use=v2&chain=mainnet"

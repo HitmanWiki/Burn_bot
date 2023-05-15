@@ -33,7 +33,7 @@ const sendAlert = async (event) => {
 
   const project = subscribedProjects[contractAddress.toLowerCase()] || {};
   const projectChatId = project.chatId;
- const projectMedia = project.media;
+//  const projectMedia = project.media;
   const projectTelegram = project.telegram;
   const projectBuyLink = project.buyLink;
   const projectTicker = project.ticker;
@@ -63,7 +63,7 @@ const sendAlert = async (event) => {
 
   const burnsBrandIdentifier = `\n<a href="${burnsTelegram}"><i>Powered by $BURNS</i></a>`;
 
-  tg.sendMessage(projectChatId, projectMedia, {
+  tg.sendMessage(projectChatId, {
     caption: `${fireEmoji} <b>NEW ${projectTicker} BURN!</b> ${fireEmoji} \n\n ${fireEmoji} <b>Amount Burned:</b> ${fireEmoji} \n ${Math.trunc(
       ethers.utils.formatUnits(event.data, decimals)
     ).toLocaleString("en-US")} ($${Math.trunc(
